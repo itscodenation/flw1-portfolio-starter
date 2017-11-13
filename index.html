@@ -1,0 +1,283 @@
+<!-- 
+    Class 1:
+        // Fork and clone the repo and set up your project workspace
+        // Link your files in the head of the document      
+    Class 2:  
+        // Add a div for each section. Within section add a container div with the appropriate number of rows and columns
+        // Add a Nav Bar to your site - It should have three links (Portfolio, About, and Contact) 
+    Class 3:  
+        // Add images to your image folder
+        // Add thumbnails and other custom component (button, modal, font) using bootstrap Documentation 
+        // Add CSS and add your site to gh-pages 
+-->
+
+<!DOCTYPE html>
+
+<head>
+
+    <title>Michael Oppong</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <script src="https://use.fontawesome.com/a10c7a379a.js"></script>
+
+    <!-- Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Michael Oppong</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-circle portrait" src="https://scripted.org/wp-content/uploads/2014/08/DSC_5204-EA2-e1478054201716-985x1024.jpg" alt="">
+                    <div class="intro-text">
+                        <h1 class="name">Michael</h1>
+                        <hr class="star-light">
+                        <span class="skills">Web Developer - Teacher - Poet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item"> 
+                    <div class="thumbnail">    
+                        <h4 class="text-center">Rock Paper Sissors</h4>
+                        <img src="images/rps.png" class="img-responsive" alt="Cabin">
+                        <div class="caption text-center">                 
+                            <a href="https://scriptedcurriculum.github.io/advanced_rockpaperscissors_solution/"> 
+                                <button class="btn btn-outline"> Live Site </button>
+                            </a> 
+                            <a href="https://github.com/ScriptEdcurriculum/advanced_rockpaperscissors_startercode"> 
+                                <button class="btn btn-outline"> Source </button>
+                            </a>  
+                        </div> 
+                    </div>         
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <div class="thumbnail">
+                        <h4 class="text-center">Pig Latinizer</h4>
+                        <img src="images/piglatinizer.png" class="img-responsive" alt="Slice of cake">
+                        <div class="caption text-center"> 
+                            <a href="https://scriptedcurriculum.github.io/advanced_piglatinizer_solution"> 
+                                <button class="btn btn-outline"> Live Site </button>
+                            </a> 
+                            <a href="https://github.com/ScriptEdcurriculum/advanced_piglatinizer_startercode"> 
+                                <button class="btn btn-outline"> Source </button>
+                            </a>  
+                        </div> 
+                    </div>      
+                </div>
+                <div class="col-sm-4 portfolio-item"> 
+                    <div class="thumbnail">
+                        <h4 class="text-center">Playlist</h4>                 
+                        <img src="images/playlist.png" class="img-responsive" alt="Circus tent"> 
+                        <div class="caption text-center"> 
+                            <a href="https://scriptedcurriculum.github.io/advanced_playlist_solution"> 
+                                <button class="btn btn-outline"> Live Site </button>
+                            </a> 
+                            <a href="https://github.com/ScriptEdcurriculum/advanced_playlist_startercode"> 
+                                <button class="btn btn-outline"> Source </button>
+                            </a>  
+                        </div> 
+                    </div>      
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <div class="thumbnail">
+                        <h4 class="text-center">Giphy</h4>
+                        <img src="images/giphy.png" class="img-responsive" alt="Game controller">
+                        <div class="caption text-center"> 
+                            <a href="https://scriptedcurriculum.github.io/advanced_giphy_solution"> 
+                                <button class="btn btn-outline"> Live Site </button>
+                            </a> 
+                            <a href="https://github.com/ScriptEdcurriculum/advanced_giphy_startercode"> 
+                                <button class="btn btn-outline"> Source </button>
+                            </a>  
+                        </div>    
+                    </div>    
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                   <div class="thumbnail">   
+                    <h4 class="text-center">API</h4>
+                    <img src="http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress.png" class="img-responsive" alt="Safe">
+                        <div class="caption text-center"> 
+                             <a href=""> 
+                                <button class="btn btn-outline"> Live Site </button>
+                             </a> 
+                             <a href=""> 
+                                 <button class="btn btn-outline"> Source </button>
+                             </a>  
+                        </div> 
+                    </div>       
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                   <div class="thumbnail">   
+                    <h4 class="text-center">Capstone</h4>
+                    <img src="http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress.png" class="img-responsive" alt="Safe">
+                        <div class="caption text-center"> 
+                             <a href=""> 
+                                <button class="btn btn-outline"> Live Site </button>
+                             </a> 
+                             <a href=""> 
+                                 <button class="btn btn-outline"> Source </button>
+                             </a>  
+                        </div> 
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>After college, Michael returned to his native city of Newark, NJ to teach English through the Teach for America program. Following TFA, Michael began working in the tech industry, but soon realized he missed fighting for educational equity on a daily basis. ScriptEd offered him the chance to combine his love for technology and education in a way that would open doors for students who often have limited access to careers in tech. In his spare time, Michael enjoys spoken word poetry and cooking.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <a href="" class="btn btn-lg btn-outline">
+                      <i class="fa fa-paper-plane"></i> Learn More!
+                  </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <a href="mailto:michael@scripted.org" class="btn btn-lg btn-outline">
+                            <i class="fa fa-paper-plane"></i> Message Me!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-6">
+                        <h3>Location</h3>
+                        <p> New York, NY </p>
+                    </div>
+
+                    <div class="footer-col col-md-6">
+                         <h3>About ScriptEd</h3>
+                         <p>Visit to learn more about <a href="http://scripted.org/">ScriptEd</a>.</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                         Copyright &copy; Your Website 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
